@@ -1,0 +1,284 @@
+/*Main Content*/
+
+body {
+	background: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px/*1em*/;
+	color: #000;
+	margin: 0;
+	line-height: 150%;
+}
+
+a {
+	color: royalblue;
+	text-decoration: none;
+	border-bottom: 0px;
+	line-height: 150%;
+}
+
+p {
+	font-family:'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 3em;
+	font-variant: small-caps;
+	padding: 10px 0px;
+	text-align: center;
+	line-height: 120%;
+	margin: 0px;
+	color: rgb(20,41,111);
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 1.7em;
+	padding: 10px 0px;
+	text-align: left;
+	margin: 0px;
+	color: rgb(20,41,111);
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	padding: 10px 0px;
+	text-align: left;
+	margin: 0px;
+	color: rgb(20,41,111);
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+	padding: 10px 0px;
+	text-align: left;
+	margin: 0px;
+	color: rgb(20,41,111);
+}
+
+div {
+	display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+	border: none;
+}
+
+.centered {
+	width: 900px;
+	margin: auto auto;
+	position: relative;
+}
+
+table {
+	margin: auto auto;
+}
+
+th, td {
+	border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even){
+	background-color: #fafafa
+}
+
+ul {
+	list-style-position: inside;
+	padding: 0 0 0 5px;
+}
+
+/* Header */
+
+#header-container {
+	height: 150px;
+	border-bottom: 1px solid #ddd;
+	background:#fafafa;
+}
+
+#header {
+	padding: 10px 0px;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+	top: 33px;
+	left: 0px;
+}
+
+#logo img.logo {
+  height: 50%;
+	width: 50%;
+}
+
+#logo a {
+	border: none;
+}
+
+.header-buttons {
+	position: absolute;
+	top: 45px;
+	right: 0px;
+	height: 14px;
+}
+
+.header-buttons a {
+	text-decoration: none;
+	color: rgb(20,41,111);
+	padding: 6px 12px;
+	border: 1px solid rgba(20,20,200,0.1);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	margin-left: 6px;
+	display: block;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header-buttons a.current {
+	color: white;
+	background: rgba(100,100,120,0.5);
+	border: 1px solid #666;
+}
+
+/* Content */
+
+#content-container {
+	background: white;
+	max-width: 18000px;
+}
+
+#banner {
+	background-image: url(../images/hallbldg.jpg);
+	/* Background image is centered vertically and horizontally at all times 
+	background-position: center center;*/
+  
+	/* Background image doesn't tile 
+	background-repeat: no-repeat;*/
+	  
+	/* Background image is fixed in the viewport so that it doesn't move when 
+	the content's height is greater than the image's height 
+	background-attachment: fixed;*/
+	  
+	/* This is what makes the background image rescale based
+	on the container's size */
+	  background-size: cover;
+}
+
+#banner h1 {
+	font-size: 3.7em;
+	color: white;
+	text-align: center;
+}
+
+#banner h2 {
+	font-size: 2em;
+	color: white;
+	text-align: center;
+}
+
+#building-types h2 {
+	font-size: 1.9em;
+	color: white;
+	text-align: center;
+	line-height: 120%;
+}
+
+#building-types h3 {
+	color: white;
+	text-align: center;
+	line-height: 120%;
+}
+
+#building-types a {
+	font-variant: small-caps;
+	color: white;
+	text-align: center;
+	line-height: 120%;
+	font-weight:400;
+}
+
+#building-types h4 {
+	font-variant: small-caps;
+	color: white;
+	text-align: center;
+	line-height: 120%;
+	font-weight:400;
+}
+
+.light-container {
+	background-color: #f8f8fe;
+}
+
+.medium-container {
+	background-color: #14296f;
+}
+
+.dark-container {
+	background-color: #08102c;
+}
+
+/* Footer */
+
+#footer-container {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background: #fafafa;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+.footer {
+	
+}
+
+/* Planroom */
+
+#planroom {
+	
+}
+
+/* Contact Page */
+
+#contact {
+	position: relative;
+}
+
+#address {
+	float: left;
+}
+
+#address h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	padding: 10px 0px;
+	text-align: left;
+	margin: 0px;
+	color: rgb(20,41,111);
+}
+
+#map {
+	
+}
+
+#gmap_canvas {
+	margin: 0 auto;
+}
