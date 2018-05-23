@@ -24,7 +24,7 @@ p {
 }
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	font-size: 3em;
 	font-variant: small-caps;
@@ -32,7 +32,7 @@ h1 {
 	text-align: center;
 	line-height: 120%;
 	margin: 0px;
-	color: rgb(20,41,111);
+	color: black;
 }
 
 h2 {
@@ -162,7 +162,7 @@ ul {
 }
 
 #banner {
-	background-image: url(../images/hallbldg.jpg);
+	/*background-image: url();*/
 	/* Background image is centered vertically and horizontally at all times 
 	background-position: center center;*/
   
@@ -190,35 +190,6 @@ ul {
 	text-align: center;
 }
 
-#building-types h2 {
-	font-size: 1.9em;
-	color: white;
-	text-align: center;
-	line-height: 120%;
-}
-
-#building-types h3 {
-	color: white;
-	text-align: center;
-	line-height: 120%;
-}
-
-#building-types a {
-	font-variant: small-caps;
-	color: white;
-	text-align: center;
-	line-height: 120%;
-	font-weight:400;
-}
-
-#building-types h4 {
-	font-variant: small-caps;
-	color: white;
-	text-align: center;
-	line-height: 120%;
-	font-weight:400;
-}
-
 .light-container {
 	background-color: #f8f8fe;
 }
@@ -243,42 +214,4 @@ ul {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	text-align: center;
-}
-
-.footer {
-	
-}
-
-/* Planroom */
-
-#planroom {
-	
-}
-
-/* Contact Page */
-
-#contact {
-	position: relative;
-}
-
-#address {
-	float: left;
-}
-
-#address h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 1.5em;
-	padding: 10px 0px;
-	text-align: left;
-	margin: 0px;
-	color: rgb(20,41,111);
-}
-
-#map {
-	
-}
-
-#gmap_canvas {
-	margin: 0 auto;
 }
