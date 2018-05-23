@@ -2,7 +2,7 @@
 
 body {
 	background: white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 14px/*1em*/;
 	color: #000;
@@ -18,7 +18,7 @@ a {
 }
 
 p {
-	font-family:'Open Sans', sans-serif;
+	font-family:'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
 }
@@ -26,8 +26,7 @@ p {
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	font-size: 3em;
-	font-variant: small-caps;
+	font-size: 4em;
 	padding: 10px 0px;
 	text-align: center;
 	line-height: 120%;
@@ -138,7 +137,7 @@ ul {
 	color: rgb(20,41,111);
 	padding: 6px 12px;
 	border: 1px solid rgba(20,20,200,0.1);
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	margin-left: 6px;
