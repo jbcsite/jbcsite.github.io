@@ -3,7 +3,7 @@
 body {
 	background: white;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 100;
 	font-size: 14px/*1em*/;
 	color: #000;
 	margin: 0;
@@ -19,13 +19,13 @@ a {
 
 p {
 	font-family:'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 100;
 	font-size: 1em;
 }
 
 h1 {
 	font-family: 'Roboto', sans-serif;
-	font-weight: url('https://fonts.googleapis.com/css?family=Roboto:100');
+	font-weight: 100;
 	font-size: 4em;
 	padding: 10px 0px;
 	text-align: center;
@@ -139,7 +139,7 @@ ul {
 	border: 1px solid rgba(20,20,200,0.1);
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: 100;
 	margin-left: 6px;
 	display: block;
 	float: left;
