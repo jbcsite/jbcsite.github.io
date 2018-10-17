@@ -30,4 +30,8 @@ p {
 	.aligner-item {
 	display: block;
 	}
+	
+	.private-event {
+	display: none;
+	}
 }
